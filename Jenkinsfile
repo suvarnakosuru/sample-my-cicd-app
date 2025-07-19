@@ -7,7 +7,7 @@ pipeline {
         // For example, the build tool command
         // MAVEN_HOME = tool 'Maven 3.8.6' // If you've configured Maven in Jenkins Global Tool Configuration
         DEPLOY_DIR = '/d/CI_CD_pipeline/DevOps/my-cicd-app/opt/my-app-deploy' // Target deployment directory on localhost
-        SOURCE_CODE_DIR = '/d/CI_CD_pipeline/DevOps/my-cicd-app' // Name of your project directory after cloning
+        SOURCE_CODE_DIR = '/d/CI_CD_pipeline/DevOps/my-cicd-app/' // Name of your project directory after cloning
     }
 
     stages {
