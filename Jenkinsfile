@@ -1,4 +1,4 @@
-/ Jenkinsfile
+// Jenkinsfile
 pipeline {
     agent any // The agent specifies where the pipeline will run. 'any' means any available agent.
 
